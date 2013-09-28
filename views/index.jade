@@ -1,0 +1,84 @@
+extends layout
+
+block content
+	.navbar.navbar-inverse.navbar-fixed-top
+		.navbar-inner
+			.container
+				a.btn.btn-navbar(data-toggle="collapse",data-target=".nav-collapse")
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.brand(href="/")
+					| ServiceLeaf
+				.nav-collapse.collapse
+					ul.nav
+						li.active
+							a(href="/")
+								| Home
+						li
+							a(href="/demo")
+								| Demo
+						li
+							a(href="/pricing")
+								| Pricing
+						li
+							a(href="/register")
+								| Sign Up										
+					a.btn.pull-right(href="/login") Sign in
+	.container
+		<!-- Main hero unit for a primary marketing message or call to action -->
+		.hero-unit.pagination-centered
+			h1 Be Ready to Pounce on That Dream Rental
+			p  Complete a single rental application.  Send with one click.
+			.control-group
+				p
+					a.btn.btn-primary.btn-large(href="/demo")
+						| Try the live demo. &raquo;
+		<!-- Example row of columns -->
+		.row
+			.span4
+				h2 Apply with one touch while you are still on site
+				p At the touch of a button, send your signed application by fax, email, or online access.
+			.span4
+				h2 Stand out with pre-qualified employment verification and credit checks
+				p Add additional information to build rental credibility and differentiate yourself.
+			.span4
+				h2 Maintain control over your personal information
+				p Grant and revoke access for rental managers to your sensitive information.
+				p
+					a.btn(href="/pricing")
+						| View details on pricing &raquo;
+		hr
+		.footer
+			.container
+				.row
+					.span4
+						p &copy; RentLegit, LLC 2013
+					.span4
+						p 
+							a(href="/terms") Terms of Service
+					.span4
+						p 
+							a(href="/privacy") Privacy
+		<!-- Le javascript
+		<!-- ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<!-- jQuery via Google + local fallback, see h5bp.com -->
+		script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js")
+		script window.jQuery || document.write('<script src="js/jquery-1.9.0.min.js"><\/script>')
+		<!-- Bootstrap JS: compiled and minified -->
+		script(src="js/bootstrap.js")
+
+		<!--<script src="js/bootstrap-transition.js"></script>-->
+		<!--<script src="js/bootstrap-alert.js"></script>-->
+		<!--<script src="js/bootstrap-modal.js"></script>-->
+		<!--<script src="js/bootstrap-dropdown.js"></script>-->
+		<!--<script src="js/bootstrap-scrollspy.js"></script>-->
+		<!--<script src="js/bootstrap-tab.js"></script>-->
+		<!--<script src="js/bootstrap-tooltip.js"></script>-->
+		<!--<script src="js/bootstrap-popover.js"></script>-->
+		<!--<script src="js/bootstrap-button.js"></script>-->
+		<!--<script src="js/bootstrap-collapse.js"></script>-->
+		<!--<script src="js/bootstrap-carousel.js"></script>-->
+		<!--<script src="js/bootstrap-typeahead.js"></script> -->
+

@@ -1,0 +1,46 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	/* background: url(/img/gray_jean.png) repeat 0 0; */
+}
+
+h1 {
+	font: 400 60px/1.3 'Bree Serif', Georgia, serif;
+	text-shadow: 1px 1px 1px #ccc;
+}
+ 
+h2, h3, h4, h5, h6 {
+	font-family: 'Bree Serif', Georgia, serif;
+}
+
+p, div {
+	font-family: 'Open Sans', Verdana, Helvetica, sans-serif;
+}
+
+.results-window {
+	max-height: 345px;
+	min-height: 345px;
+	overflow-y: hidden;
+	/*overflow-x: hidden;
+	padding-right: 5px;*/
+	/*visibility: ;*/
+	box-shadow: 0 0 1em 1em #ccc;
+	/*scrollbar-face-color: #336699; scrollbar-3dlight-color: #336699; scrollbar-base-color: #336699; 
+	scrollbar-track-color: #336699; scrollbar-darkshadow-color: #000; scrollbar-arrow-color: #000; 
+	scrollbar-shadow-color: #fff; scrollbar-highlight-color: #fff;*/
+}
+
+
+.hero-unit .btn-primary {
+	margin-top: 35px;
+}
+
+.div-that-you want-to-stand-out { 
+    box-shadow: 0 0 1em 1em #ccc;
+}
+
+.query-running-image {
+	margin-top: 65px;
+	margin-left: 275px;
+}
+
